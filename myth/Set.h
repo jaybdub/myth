@@ -17,8 +17,11 @@ public:
 	Set();
 	virtual ~Set();
 	bool isNullSet();
-	Set getPowerSet();
-	Set pair(Set A, Set B);
+	Set isMember(Set B);
+	Set isElement(Set B);
+	Set isSubset(Set B);
+	Set isSuperset(Set B);
+
 
 private:
 	std::vector<Element> elements;
