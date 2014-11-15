@@ -1,0 +1,1 @@
+myth.d: ../myth.cpp
